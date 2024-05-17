@@ -1,0 +1,23 @@
+.btn {
+  @apply px-4 py-2 flex items-center justify-center rounded-md w-fit transition-colors duration-300;
+}
+
+.btn-primary {
+  @apply btn bg-btn-primary hover:bg-btn-primary-hover;
+}
+
+.btn-success {
+  @apply btn bg-btn-success hover:bg-btn-success-hover;
+}
+
+.btn-danger {
+  @apply btn bg-btn-danger hover:bg-btn-danger-hover;
+}
+
+.btn-warning {
+  @apply btn bg-btn-warning hover:bg-btn-warning-hover;
+}
+
+.btn-gray {
+  @apply btn bg-btn-gray hover:bg-btn-gray-hover;
+}
